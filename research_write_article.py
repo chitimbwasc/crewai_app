@@ -125,6 +125,6 @@ crew = Crew(
 )
 
 # Running the Crew
-result = crew.kickoff(inputs={"topic": "Artificial Intelligence"})
-st.markdown(result)
+# result = crew.kickoff(inputs={"topic": "Artificial Intelligence"})
+# st.markdown(result)
 #
