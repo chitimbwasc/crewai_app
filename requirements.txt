@@ -1,3 +1,5 @@
-crewai
-pysqlite3-binary
 streamlit
+pysqlite3-binary
+crewai
+duckduckgo-search
+langchain
