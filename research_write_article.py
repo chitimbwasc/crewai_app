@@ -1,6 +1,6 @@
 import os
 
-import treamlit as st
+import streamlit as st
 from crewai import Agent, Task, Crew
 
 # Warning control
