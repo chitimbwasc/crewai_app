@@ -1,6 +1,6 @@
 import os
 
-import warnings
+import treamlit as st
 from crewai import Agent, Task, Crew
 
 # Warning control
@@ -126,5 +126,5 @@ crew = Crew(
 
 # Running the Crew
 result = crew.kickoff(inputs={"topic": "Artificial Intelligence"})
-
+st.markdown(result)
 #
