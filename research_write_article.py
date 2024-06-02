@@ -4,11 +4,11 @@ import streamlit as st
 from crewai import Agent, Task, Crew
 
 # Warning control
-warnings.filterwarnings('ignore')
+# warnings.filterwarnings('ignore')
 
 
 # openai_api_key = userdata.get('openai_api_key')
-openai_api_key = ""
+# openai_api_key = ""
 os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY') # Set the environment variable
 os.environ["OPENAI_MODEL_NAME"] = 'gpt-3.5-turbo'
 
